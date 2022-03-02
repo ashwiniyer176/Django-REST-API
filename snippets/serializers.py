@@ -11,5 +11,5 @@ class SnippetSerializer(serializers.ModelSerializer):
     Django's forms. 
     '''
     class Meta:
-        models = Snippet
+        model = Snippet
         fields = ['id', 'title', 'code', 'linenos', 'language', 'style']
